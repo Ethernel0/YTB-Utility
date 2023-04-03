@@ -14,7 +14,7 @@ def playlist_parse(user_playlist_link):
         for video_url in playlist.video_urls:
             fl.write(video_url+"\n")
         print("Successful !")
-        print("Saved in "+os.getcwd()+playlist_url_filename)
+        print("Saved in "+os.getcwd())
 
 def is_youtube_link(link):
     return re.match(YOUTUBE_LINK_REGEX, link) is not None
