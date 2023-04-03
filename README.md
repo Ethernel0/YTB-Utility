@@ -3,7 +3,7 @@
 ### Repository made for my YouTube video !
 **2 Easy Ways to Download YouTube Videos/Music Faster**
 
-https://www.youtube.com/watch?v=n65sQi4WUIQ
+https://www.youtube.com/watch?v=1d8AeY4MR4Y
 
 Be sure that you have Python and Pip installed (just open a terminal and type in python -h or pip -h)
 And install the required packages : pyperclip, pytube (pip install pyperclip or pytube)
