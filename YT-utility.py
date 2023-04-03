@@ -62,11 +62,12 @@ if __name__ == '__main__':
     arguments, values = getopt.getopt(argumentList, argv_options, long_argv_options)
     for currentArgument, currentValue in arguments:
         if currentArgument in ("-h"):
-            print("Possible input:")
-            print("-h for help information.")
-            print("-s starts the script.")
-            print("-p request a link of the Playlist to parse.")
-            print("-c request a filename to delete it.")
+            print("Inputs:")
+            print("-h for possible commands")
+            print("-s to start the clipboard to file module")
+            print("-p to parse a YouTube playlist (only public playlist!)")
+            print("-c clear the selected file (ex: clipboard-url-repo.txt or playlist-url-repo.txt)")
+            print("^ premade user input you can choose 'cb' or 'pl' | cb = clipboard / pl = playlist")
 
         elif currentArgument in ("-s"):
             mainFunc()
